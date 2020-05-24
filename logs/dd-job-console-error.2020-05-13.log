@@ -1,0 +1,3 @@
+[WARN ] 2020-05-13 14:30:46,234 --main-EventThread-- [org.apache.curator.ConnectionState] Session expired event received 
+[WARN ] 2020-05-13 15:25:07,891 --main-EventThread-- [org.apache.curator.ConnectionState] Session expired event received 
+[WARN ] 2020-05-13 16:08:21,134 --main-EventThread-- [org.apache.curator.ConnectionState] Session expired event received 
