@@ -38,9 +38,14 @@
         </repository>
         <snapshotRepository>
             <id>snapshot</id>
+            <name>oss Snapshot</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <!--<snapshotRepository>
+            <id>snapshot</id>
             <name>github Snapshot</name>
             <url>https://github.com/xianlongbai/springboot-elasticjob-demo/snapshots</url>
-        </snapshotRepository>
+        </snapshotRepository>-->
         <!--<repository>
             <id>release</id>
             <name>aliyun Release</name>
