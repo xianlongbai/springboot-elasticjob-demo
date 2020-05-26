@@ -10,7 +10,7 @@
 
     <groupId>com.bxl</groupId>
     <artifactId>springboot-elasticjob-demo</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.2.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>springboot-elasticjob-demo</name>
     <description>Demo project for Spring Boot</description>
@@ -173,8 +173,8 @@
                     <tagNameFormat>v-@{project.version}</tagNameFormat>
                     <preparationGoals>clean verify</preparationGoals>
                     <arguments>-DskipTests</arguments>
+                    <goals>-f pom.xml deploy</goals>
                     <!--<releaseProfiles>release</releaseProfiles>-->
-                    <!--<goals>-f pom.xml deploy</goals>-->
                 </configuration>
             </plugin>
 
