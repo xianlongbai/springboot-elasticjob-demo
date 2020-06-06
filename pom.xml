@@ -10,7 +10,7 @@
 
     <groupId>com.bxl</groupId>
     <artifactId>springboot-elasticjob-demo</artifactId>
-    <version>1.2.3-SNAPSHOT</version>
+    <version>1.2.5-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>springboot-elasticjob-demo</name>
     <description>Demo project for Spring Boot</description>
@@ -38,8 +38,8 @@
         </repository>
         <snapshotRepository>
             <id>snapshot</id>
-            <name>github Snapshot</name>
-            <url>https://github.com/xianlongbai/springboot-elasticjob-demo/releases</url>
+            <name>local Snapshot</name>
+            <url>file://D:\tmp\maven_release_test</url>
         </snapshotRepository>
         <!--<snapshotRepository>
             <id>snapshot</id>
