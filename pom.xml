@@ -10,7 +10,7 @@
 
     <groupId>com.bxl</groupId>
     <artifactId>springboot-elasticjob-demo</artifactId>
-    <version>1.2.5-SNAPSHOT</version>
+    <version>1.2.6-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>springboot-elasticjob-demo</name>
     <description>Demo project for Spring Boot</description>
@@ -126,7 +126,7 @@
                 </configuration>
             </plugin>
             <!--maven依赖规则制定-->
-            <!--<plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
                 <executions>
@@ -161,7 +161,7 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>-->
+            </plugin>
             <!--用来解决依赖-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
