@@ -41,22 +41,8 @@
             <name>local Snapshot</name>
             <url>file://D:\tmp\maven_release_test</url>
         </snapshotRepository>
-        <!--<snapshotRepository>
-            <id>snapshot</id>
-            <name>oss Snapshot</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>-->
-        <!--<snapshotRepository>
-            <id>snapshot</id>
-            <name>github Snapshot</name>
-            <url>https://github.com/xianlongbai/springboot-elasticjob-demo/snapshots</url>
-        </snapshotRepository>-->
-        <!--<repository>
-            <id>release</id>
-            <name>aliyun Release</name>
-            <url>http://maven.china.tom.com/artifactory/libs-releases-local</url>
-        </repository>-->
     </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -91,13 +77,18 @@
             <groupId>com.dangdang</groupId>
             <artifactId>elastic-job-lite-core</artifactId>
             <version>2.1.5</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>guava</artifactId>
+                    <groupId>com.google.guava</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.dangdang</groupId>
             <artifactId>elastic-job-lite-spring</artifactId>
             <version>2.1.5</version>
         </dependency>
-
         <dependency>
             <groupId>com.dangdang</groupId>
             <artifactId>elastic-job-lite-console</artifactId>
